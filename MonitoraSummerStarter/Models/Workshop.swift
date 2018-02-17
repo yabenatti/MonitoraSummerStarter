@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class Workshop {
+    
+    var id :Int
+    var name :String
+    var tutor :String
+    var description :String
+    
+    init(id :Int, name :String, tutor: String, description :String) {
+        self.id = id
+        self.name = name
+        self.tutor = tutor
+        self.description = description
+    }
+}

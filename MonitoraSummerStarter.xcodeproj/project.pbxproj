@@ -11,6 +11,7 @@
 		E42574FC2038A90C007C994D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FB2038A90C007C994D /* DetailViewController.swift */; };
 		E42574FE2038A91D007C994D /* Workshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FD2038A91D007C994D /* Workshop.swift */; };
 		E42575002038A92A007C994D /* WorkshopFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FF2038A92A007C994D /* WorkshopFactory.swift */; };
+		E42575022038AD28007C994D /* WorkshopsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E42575012038AD28007C994D /* WorkshopsList.plist */; };
 		E42BEE092037780C0031ED5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BEE082037780C0031ED5E /* AppDelegate.swift */; };
 		E42BEE0B2037780C0031ED5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BEE0A2037780C0031ED5E /* ViewController.swift */; };
 		E42BEE0E2037780C0031ED5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42BEE0C2037780C0031ED5E /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		E42574FB2038A90C007C994D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E42574FD2038A91D007C994D /* Workshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop.swift; sourceTree = "<group>"; };
 		E42574FF2038A92A007C994D /* WorkshopFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopFactory.swift; sourceTree = "<group>"; };
+		E42575012038AD28007C994D /* WorkshopsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WorkshopsList.plist; sourceTree = "<group>"; };
 		E42BEE052037780C0031ED5E /* MonitoraSummerStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitoraSummerStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42BEE082037780C0031ED5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E42BEE0A2037780C0031ED5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				E42574FF2038A92A007C994D /* WorkshopFactory.swift */,
+				E42575012038AD28007C994D /* WorkshopsList.plist */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42BEE132037780C0031ED5E /* LaunchScreen.storyboard in Resources */,
+				E42575022038AD28007C994D /* WorkshopsList.plist in Resources */,
 				E42BEE102037780C0031ED5E /* Assets.xcassets in Resources */,
 				E42BEE0E2037780C0031ED5E /* Main.storyboard in Resources */,
 			);

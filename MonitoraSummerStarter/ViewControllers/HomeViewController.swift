@@ -9,11 +9,22 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    // MARK: - Variables
+    var workshopsArray :[Workshop] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let array = WorkshopFactory.createWorkshops() {
+            self.workshopsArray = array
+        }
     }
 
     override func didReceiveMemoryWarning() {

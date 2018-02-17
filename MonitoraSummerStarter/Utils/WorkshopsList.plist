@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>workshops</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>Data Science</string>
+			<key>tutor</key>
+			<string>Arthur Fortes</string>
+			<key>description</key>
+			<string>Personalização de conteúdo: Utilizando sistemas de recomendação baseado no comportamento de usuários</string>
+		</dict>
+	</array>
+</dict>
+</plist>
