@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42574FA2038A903007C994D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574F92038A903007C994D /* HomeViewController.swift */; };
+		E42574FC2038A90C007C994D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FB2038A90C007C994D /* DetailViewController.swift */; };
+		E42574FE2038A91D007C994D /* Workshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FD2038A91D007C994D /* Workshop.swift */; };
+		E42575002038A92A007C994D /* WorkshopFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42574FF2038A92A007C994D /* WorkshopFactory.swift */; };
 		E42BEE092037780C0031ED5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BEE082037780C0031ED5E /* AppDelegate.swift */; };
 		E42BEE0B2037780C0031ED5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42BEE0A2037780C0031ED5E /* ViewController.swift */; };
 		E42BEE0E2037780C0031ED5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42BEE0C2037780C0031ED5E /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42574F92038A903007C994D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E42574FB2038A90C007C994D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E42574FD2038A91D007C994D /* Workshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop.swift; sourceTree = "<group>"; };
+		E42574FF2038A92A007C994D /* WorkshopFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopFactory.swift; sourceTree = "<group>"; };
 		E42BEE052037780C0031ED5E /* MonitoraSummerStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitoraSummerStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42BEE082037780C0031ED5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E42BEE0A2037780C0031ED5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E42574F62038A8F9007C994D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E42574FF2038A92A007C994D /* WorkshopFactory.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E42574F72038A8F9007C994D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E42574F92038A903007C994D /* HomeViewController.swift */,
+				E42574FB2038A90C007C994D /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E42574F82038A8F9007C994D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E42574FD2038A91D007C994D /* Workshop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E42BEDFC2037780C0031ED5E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +87,9 @@
 		E42BEE072037780C0031ED5E /* MonitoraSummerStarter */ = {
 			isa = PBXGroup;
 			children = (
+				E42574F82038A8F9007C994D /* Models */,
+				E42574F62038A8F9007C994D /* Utils */,
+				E42574F72038A8F9007C994D /* ViewControllers */,
 				E42BEE082037780C0031ED5E /* AppDelegate.swift */,
 				E42BEE0A2037780C0031ED5E /* ViewController.swift */,
 				E42BEE0C2037780C0031ED5E /* Main.storyboard */,
@@ -136,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42574FE2038A91D007C994D /* Workshop.swift in Sources */,
 				E42BEE0B2037780C0031ED5E /* ViewController.swift in Sources */,
 				E42BEE092037780C0031ED5E /* AppDelegate.swift in Sources */,
+				E42575002038A92A007C994D /* WorkshopFactory.swift in Sources */,
+				E42574FA2038A903007C994D /* HomeViewController.swift in Sources */,
+				E42574FC2038A90C007C994D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
